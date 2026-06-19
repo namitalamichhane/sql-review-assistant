@@ -1,4 +1,5 @@
 # Universal SQL Optimization & Automated Code Review Engine
+[![App Status](https://img.shields.io/badge/Live%20Web%20Application-Click%20Here-brightgreen?style=for-the-badge&logo=streamlit)](https://huggingface.co/spaces/namita8584/sql-code-review)
 
 An end-to-end static code analysis tool and interactive analytics dashboard built to identify performance bottlenecks, anti-patterns, and security risks in SQL queries. This application evaluates raw SQL text strings against 12 enterprise-grade linting rules completely independent of a database schema, generating quantitative quality scores and actionable optimization prescriptions.
 
