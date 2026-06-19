@@ -32,14 +32,23 @@ An end-to-end static code analysis tool and interactive analytics dashboard buil
 
 ## File Architecture
 sql-review-assistant/
-├── app.py                # Main User Interface & Analysis Hub
+├── streamlit_app.py      # Main User Interface & Analysis Hub (Hugging Face Entry)
 ├── dashboard.py          # BI Analytics Monitoring Console
-├── sql_analyzer.py       # Core Text Parser & 12 Enforcement Heuristics
+├── sql_analyzer.py       # Core Text Parser & 12 Heuristics
 ├── scoring.py            # Quantitative Grading Evaluation Logic
-├── recommendations.py    # Prescriptive Engineering Remediation Map
-├── ai_explainer.py       # Hybrid Glossary & NLP Pipeline Layer
+├── recommendations.py    # Prescriptive Engineering Remedies
+├── ai_explainer.py       # Glossary & NLP Pipeline Layer
 ├── reviews.csv           # Persistent Metadata Evaluation Log
-└── requirements.txt      # Isolated Project Dependency Registry
+├── Dockerfile            # Enterprise Cloud Deployment Container
+└── requirements.txt      # Platform-Agnostic Dependency Registry
+
+## How To Run The Applications
+
+1. Launch the Core Code Review Assistant Portal locally:
+   streamlit run streamlit_app.py --server.headless true
+
+2. Launch the BI Executive Analytics Dashboard Panel locally:
+   streamlit run dashboard.py --server.port 8502 --server.headless true
 
 ## How To Run The Applications
 
